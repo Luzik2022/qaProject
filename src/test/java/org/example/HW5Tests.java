@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.concurrent.TimeUnit;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
@@ -11,7 +9,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.concurrent.TimeUnit;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
     public class HW5Tests {
@@ -53,11 +54,11 @@ import static org.junit.jupiter.api.Assertions.*;
             // тестовые действия
             driver.get("https://account.reverso.net/Account/Login?returnUrl=https%3A%2F%2Fcontext.reverso.net%2F&lang=ru");
             driver.findElement(By.xpath("//input[@id='Email']")).clear();
-            driver.findElement(By.xpath("//input[@id='Password]")).clear();
+            driver.findElement(By.xpath("//input[@id='Password']")).clear();
             driver.findElement(By.xpath("//input[@id='Email']")).sendKeys("nagornaya.teacher@gmail.com");
             driver.findElement(By.xpath("//input[@id='Password']")).sendKeys("Nevermore13");
             driver.findElement(By.xpath("//button[@class='btn btn-primary btn-submit']")).click();
-            String s = driver.findElement(By.xpath("//[@class='form-control valid']")).getText();
+            String s = driver.findElement(By.xpath("//span[@class='text username']")).getText();
             assertTrue(s.equals("nagornayateacher"));
 
             //результат теста

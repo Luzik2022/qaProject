@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c396d450-e838-452c-bed3-98540bc0a87e" name="Changes" comment="hw4версия2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HW5Tests.java" afterDir="false" />
+    <list default="true" id="c396d450-e838-452c-bed3-98540bc0a87e" name="Changes" comment="hw5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BacketPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW6Tests/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW6Tests/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW6Tests/MainPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW6Tests/UserStoriesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HW5Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HW5Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674998830228</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hw5">
+      <created>1675277640929</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675277640929</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,7 +192,8 @@
     <MESSAGE value="hw3" />
     <MESSAGE value="hw4" />
     <MESSAGE value="hw4версия2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw4версия2" />
+    <MESSAGE value="hw5" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
