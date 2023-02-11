@@ -15,11 +15,12 @@ public class UserStoriesTests extends AbstractTest{
     public void testCase4() throws InterruptedException {
         new BacketPage(getWebDriver())
                 .pressDelIt();
-        assertTrue(new BacketPage(getWebDriver()).getText().equals("Trout Master Ridge Sbiro (12g Floating)"));
+        assertTrue(new BacketPage(getWebDriver()).getText().equals("Будьте внимательны! Все Ваши примеры будут удалены."));
         String s = new BacketPage(getWebDriver())
                 .pressDelIt()
                 .pressAcAll()
                 .getText();
+
         assertTrue(s.equals("0 "));
 
         //результат теста
